@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/counter/static/css/main.a1d9c542.css",
-    "main.js": "/counter/static/js/main.a0c59cb2.js",
-    "static/js/787.631a2270.chunk.js": "/counter/static/js/787.631a2270.chunk.js",
-    "static/media/MumbaiChoufernew.png": "/counter/static/media/MumbaiChoufernew.a034598efca66c572e66.png",
-    "static/media/Saamna.png": "/counter/static/media/Saamna.cbe71ff05fa2afed069d.png",
-    "index.html": "/counter/index.html",
-    "main.a1d9c542.css.map": "/counter/static/css/main.a1d9c542.css.map",
-    "main.a0c59cb2.js.map": "/counter/static/js/main.a0c59cb2.js.map",
-    "787.631a2270.chunk.js.map": "/counter/static/js/787.631a2270.chunk.js.map"
+    "main.css": "/newspaper/static/css/main.a1d9c542.css",
+    "main.js": "/newspaper/static/js/main.6bcd219c.js",
+    "static/js/787.631a2270.chunk.js": "/newspaper/static/js/787.631a2270.chunk.js",
+    "static/media/MumbaiChoufernew.png": "/newspaper/static/media/MumbaiChoufernew.a034598efca66c572e66.png",
+    "static/media/Saamna.png": "/newspaper/static/media/Saamna.cbe71ff05fa2afed069d.png",
+    "index.html": "/newspaper/index.html",
+    "main.a1d9c542.css.map": "/newspaper/static/css/main.a1d9c542.css.map",
+    "main.6bcd219c.js.map": "/newspaper/static/js/main.6bcd219c.js.map",
+    "787.631a2270.chunk.js.map": "/newspaper/static/js/787.631a2270.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1d9c542.css",
-    "static/js/main.a0c59cb2.js"
+    "static/js/main.6bcd219c.js"
   ]
 }
