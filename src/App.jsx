@@ -23,7 +23,7 @@ function App() {
         setMCDate(e.target.value)
         console.log(indianDate(e.target.value))
         setDate(e.target.value.split("-").join(""))
-        setStatus(true)
+        
     }
 
   useEffect(()=>{
@@ -31,11 +31,17 @@ function App() {
     
    setMCDate(stringArr.join("-"))
    setDate(stringArr.join(""))
-  },[month,date,year])
+  },[])
 
     return (
     <div className="App">
-      {status ? <h1 onClick={()=>setStatus(false)}>{indianDate(MumbaiChoufer)}</h1> : <input type="date" onChange={changeDate}></input>}
+      {status ? <h1 onClick={()=>setStatus(false)}>{indianDate(MumbaiChoufer)}</h1> : 
+      <>
+      <input type="date" onChange={changeDate}></input>
+      <button 
+      style={{width:"100px",height:"60px",border:"0px",borderRadius:"20px",color:"white",backgroundColor:"red",fontSize:"24px"}}
+      onClick={()=>setStatus(true)}>Submit</button>
+      </>}
      <NewsPaper 
      title="Mumbai Chaufer"
      thumbNail={MumbaiChoufernew}
