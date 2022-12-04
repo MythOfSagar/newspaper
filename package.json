@@ -33,7 +33,8 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "homepage":"https://sagar1079.github.io/counter"
+    ]
   }
+  ,
+    "homepage":"https://sagar1079.github.io/counter"
 }
