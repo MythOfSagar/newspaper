@@ -31,7 +31,7 @@ function App() {
     
    setMCDate(stringArr.join("-"))
    setDate(stringArr.join(""))
-  },[])
+  },[month,date,year])
 
     return (
     <div className="App">
