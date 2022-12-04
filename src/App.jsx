@@ -1,6 +1,9 @@
 import './App.css';
 import {useEffect,useState} from "react"
 import NewsPaper from './component/NewsPaper';
+import Saamna from"./component/Saamna.png"
+import MumbaiChoufernew from "./component/MumbaiChoufernew.png"
+
 
 function App() {
 
@@ -38,12 +41,12 @@ function App() {
     <div className="App">
      <NewsPaper 
      title="Mumbai Chaufer"
-     thumbNail="http://mumbaichoufer.com/includes/images/MumbaiChoufernew.png"
+     thumbNail={MumbaiChoufernew}
      paperURL={`http://mumbaichoufer.com/editionpage.php?edn=MumbaiChoufer&date=${MumbaiChoufer}&edid=MCFR_MAIN&pid=MCFR_MAIN&issueid=MCFR_MAIN_20221123&pn=1#Page/1`}
      
     ></NewsPaper>
     <NewsPaper 
-     thumbNail="http://epaper.saamana.com/maha/includes/images/VVMHEAD.png"
+     thumbNail={Saamna}
      paperURL={`http://epaper.saamana.com/EditionPage/EPpage.php?edn=Mumbai&isid=SAMANA_MUM_${date}#Page/1`}
      
     ></NewsPaper>
